@@ -22,7 +22,7 @@ android {
     }
 }
 buildscript {
-    apply from: 'versions.gradle'
+    //apply from: 'versions.gradle'
 
     repositories {
         google()
