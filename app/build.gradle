@@ -44,6 +44,6 @@ dependencies {
     implementation 'org.litepal.guolindev:core:3.2.2'
 
 }
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+//task clean(type: Delete) {
+//   delete rootProject.buildDir
+//}
