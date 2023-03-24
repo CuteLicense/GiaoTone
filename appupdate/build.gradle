@@ -1,4 +1,6 @@
-apply plugin: 'com.android.library'
+import java.nio.charset.Charset
+
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
