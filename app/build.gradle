@@ -1,4 +1,7 @@
 //apply plugin: 'com.android.application'
+import java.nio.charset.Charset
+
+apply plugin: 'com.android.application'
 
 buildscript {
     apply from: 'versions.gradle'
