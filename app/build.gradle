@@ -50,8 +50,8 @@ dependencies {
     implementation 'me.drakeet.multitype:multitype:3.5.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     api "com.jakewharton:butterknife:10.0.0"
-    implementation project(path: ':module_donatedialog')
-    implementation project(path: ':appupdate')
+    //implementation project(path: ':module_donatedialog')
+    //implementation project(path: ':appupdate')
     testImplementation 'junit:junit:4.12'
     annotationProcessor "com.jakewharton:butterknife-compiler:10.0.0"
     implementation 'com.github.bumptech.glide:glide:4.9.0'
