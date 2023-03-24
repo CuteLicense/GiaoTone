@@ -21,7 +21,15 @@ android {
         }
     }
 }
+buildscript {
+    apply from: 'versions.gradle'
 
+    repositories {
+        google()
+        jcenter()
+    }
+
+}
 //dependencies {
     //implementation fileTree(dir: "libs", include: ["*.jar"])
 
