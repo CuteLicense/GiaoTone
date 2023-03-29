@@ -8,11 +8,11 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        minSdkVersion 14
+        applicationId "cn.bavelee.giaotone"
+        minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
-
+        versionCode 9999999
+        versionName "9.9.9"
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -34,9 +34,6 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
 
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }
 }
 
@@ -50,8 +47,8 @@ dependencies {
     implementation 'me.drakeet.multitype:multitype:3.5.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     api "com.jakewharton:butterknife:10.0.0"
-    //implementation project(path: ':module_donatedialog')
-    //implementation project(path: ':appupdate')
+    implementation project(path: ':module_donatedialog')
+    implementation project(path: ':appupdate')
     testImplementation 'junit:junit:4.12'
     annotationProcessor "com.jakewharton:butterknife-compiler:10.0.0"
     implementation 'com.github.bumptech.glide:glide:4.9.0'
